@@ -1,0 +1,475 @@
+/* 动画 */
+
+/* 第一屏 */
+
+/* 不做大多数 */
+.current .sec1-title {
+  animation: magnify 0.2s ease-out forwards;
+}
+/* 放大动画 */
+@keyframes magnify {
+  from {
+    transform: translateY(-400px) scale(4);
+  }
+  to {
+  }
+}
+/* 二次元 */
+.current .sec1-info,
+/* 开通会员  */
+.current .sec1-vip,
+/* 每一屏标题 */
+.current .screen-area {
+  animation: upglide 0.8s ease-in forwards;
+}
+/* 上滑显示动画 */
+@keyframes upglide {
+  from {
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* 星星 */
+.current .figure-1::after {
+  animation: alpha 1s linear infinite alternate;
+}
+/* 透明度动画 */
+@keyframes alpha {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* 第二屏 */
+
+/* 每一屏字体图标 */
+.current .screen-area > .icon {
+  animation: rotate 0.8s ease-in forwards;
+}
+/* 旋转移动动画 */
+@keyframes rotate {
+  from {
+    transform: rotate(-90deg) translate(-20px, -20px);
+  }
+  to {
+  }
+}
+/* 图标旋转 */
+/* icon-1 */
+.current .figure-list > .icon-1 {
+  animation: icon-1-rotate 0.5s linear forwards;
+}
+@keyframes icon-1-rotate {
+  0% {
+  }
+  25% {
+    transform: translate(230px) scale(1.3);
+    z-index: 5;
+  }
+  50% {
+    transform: translate(400px, -59px);
+    z-index: 5;
+  }
+  75% {
+    transform: translate(320px, -230px) scale(0.8);
+    z-index: 1;
+  }
+  100% {
+    transform: translate(150px, -290px) scale(0.6);
+    z-index: 1;
+  }
+}
+
+/* icon-2 */
+.current .figure-list > .icon-2 {
+  animation: icon-2-rotate 0.5s linear forwards;
+}
+@keyframes icon-2-rotate {
+  0% {
+  }
+  25% {
+    transform: translate(170px, -59px);
+  }
+  50% {
+    transform: translate(90px, -230px) scale(0.8);
+    z-index: 1;
+  }
+  75% {
+    transform: translate(-80px, -290px) scale(0.6);
+    z-index: 1;
+  }
+  100% {
+    transform: translate(-240px, -282px) scale(0.4);
+    z-index: 1;
+  }
+}
+/* icon-3 */
+.current .figure-list > .icon-3 {
+  animation: icon-3-rotate 0.5s linear forwards;
+}
+@keyframes icon-3-rotate {
+  0% {
+  }
+  25% {
+    transform: translate(-80px, -135px) scale(0.8);
+    z-index: 1;
+  }
+  50% {
+    transform: translate(-250px, -195px) scale(0.6);
+    z-index: 1;
+  }
+  75% {
+    transform: translate(-410px, -188px) scale(0.4);
+    z-index: 1;
+  }
+  100% {
+    transform: translate(-570px, -150px) scale(0.5);
+  }
+}
+/* icon-4 */
+.current .figure-list > .icon-4 {
+  animation: icon-4-rotate 0.5s linear forwards;
+}
+@keyframes icon-4-rotate {
+  0% {
+  }
+  25% {
+    transform: translate(-170px, 60px) scale(0.6);
+    z-index: 1;
+  }
+  50% {
+    transform: translate(-330px, -52px) scale(0.4);
+    z-index: 1;
+  }
+  75% {
+    transform: translate(-490px, -15px) scale(0.5);
+  }
+  100% {
+    transform: translate(-590px, 85px) scale(0.6);
+  }
+}
+/* icon-5 */
+.current .figure-list > .icon-5 {
+  animation: icon-5-rotate 0.5s linear forwards;
+}
+@keyframes icon-5-rotate {
+  0% {
+  }
+  25% {
+    transform: translate(-160px, 8px) scale(0.4);
+    z-index: 1;
+  }
+  50% {
+    transform: translate(-320px, 45px) scale(0.5);
+  }
+  75% {
+    transform: translate(-420px, 145px) scale(0.6);
+  }
+  100% {
+    transform: translate(-340px, 240px) scale(0.7);
+  }
+}
+/* icon-6 */
+.current .figure-list > .icon-6 {
+  animation: icon-6-rotate 0.5s linear forwards;
+}
+@keyframes icon-6-rotate {
+  0% {
+  }
+  25% {
+    transform: translate(-160px, 37px) scale(0.5);
+  }
+  50% {
+    transform: translate(-260px, 137px) scale(0.6);
+  }
+  75% {
+    transform: translate(-180px, 232px) scale(0.7);
+  }
+  100% {
+    transform: translate(10px, 282px) scale(1);
+    z-index: 5;
+  }
+}
+/* icon-9 */
+.current .figure-list > .icon-9 {
+  animation: icon-9-rotate 0.5s linear forwards;
+}
+@keyframes icon-9-rotate {
+  0% {
+  }
+  25% {
+    transform: translate(-100px, 100px) scale(0.6);
+  }
+  50% {
+    transform: translate(-20px, 195px) scale(0.7);
+  }
+  75% {
+    transform: translate(170px, 245px) scale(1);
+  }
+  100% {
+    transform: translate(400px, 245px) scale(1.3);
+  }
+}
+/* icon-8 */
+.current .figure-list > .icon-8 {
+  animation: icon-8-rotate 0.5s linear forwards;
+}
+@keyframes icon-8-rotate {
+  0% {
+  }
+  25% {
+    transform: translate(80px, 95px) scale(0.7);
+  }
+  50% {
+    transform: translate(270px, 145px) scale(1);
+  }
+  75% {
+    transform: translate(500px, 145px) scale(1.3);
+  }
+  100% {
+    transform: translate(670px, 50px) scale(1);
+  }
+}
+/* icon-7 */
+.current .figure-list > .icon-7 {
+  animation: icon-7-rotate 0.5s linear forwards;
+}
+@keyframes icon-7-rotate {
+  0% {
+  }
+  25% {
+    transform: translate(190px, 50px) scale(1);
+    z-index: 5;
+  }
+  50% {
+    transform: translate(420px, 50px) scale(1.3);
+    z-index: 5;
+  }
+  75% {
+    transform: translate(590px, -45px) scale(1);
+    z-index: 5;
+  }
+  100% {
+    transform: translate(510px, -180px) scale(0.8);
+    z-index: 0;
+  }
+}
+/* 第三屏 */
+.current .icon-monitor {
+  animation: alpha-translate 1s ease reverse forwards;
+}
+.current .icon-shine {
+  animation: alpha 1s ease 0.5s reverse forwards;
+}
+.current .icon-character1 {
+  animation: alpha-move 1s ease 1s reverse forwards;
+}
+.current .icon-character2 {
+  animation: alpha-move 1s ease 1.2s reverse forwards;
+}
+.current .icon-character3 {
+  animation: alpha-move 1s ease 1.3s reverse forwards;
+}
+.current .icon-character4 {
+  animation: alpha-move 1s ease 1.4s reverse forwards;
+}
+.current .icon-character5 {
+  animation: alpha-move 1s ease 1.5s reverse forwards;
+}
+.current .icon-flame {
+  animation: alpha-move 1s ease 1.6s reverse forwards;
+}
+.current .icon-car {
+  animation: alpha-car 1s ease 1.7s reverse forwards;
+}
+.current .light {
+  animation: alpha 1s ease 1.8s reverse forwards;
+}
+/* 透明度 向上移动动画 */
+@keyframes alpha-translate {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+}
+@keyframes alpha-move {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+@keyframes alpha-car {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+}
+/* 第四屏 */
+.current .figure2-list {
+  animation: figure2-list 0.8s linear forwards;
+}
+@keyframes figure2-list {
+  form {
+  }
+  to {
+    transform: rotate(0deg) scale(1);
+  }
+}
+.current .figure2-list > span {
+  animation: figure2-list-span 5s ease infinite alternate;
+}
+.current .figure2-list > .icon-headset {
+  animation: figure2-list-span 5s ease 0.2s infinite alternate;
+}
+.current .figure2-list > .icon-glasses {
+  animation: figure2-list-span 5s ease 0.5s infinite alternate;
+}
+.current .figure2-list > .icon-perfume {
+  animation: figure2-list-span 5s ease 0.7s infinite alternate;
+}
+.current .figure2-list > .icon-dress {
+  animation: figure2-list-span 5s ease 1s infinite alternate;
+}
+@keyframes figure2-list-span {
+  0% {
+  }
+  25% {
+    transform: translate(5px);
+  }
+  50% {
+    transform: translate(0px, 5px);
+  }
+  75% {
+    transform: translate(0px, -5px);
+  }
+  100% {
+    transform: translate(-5px);
+  }
+}
+/* 第五屏 */
+.current .icon-bear {
+  animation: figure3-list-translate-1 1.5s ease forwards;
+  opacity: 0;
+  transform: translateX(-130px);
+}
+.current .icon-babyq {
+  animation: figure3-list-translate-2 1.5s ease 0.3s forwards;
+  opacity: 0;
+  transform: translateX(130px);
+}
+.current .icon-qana {
+  animation: figure3-list-translate-1 1.5s ease 0.6s forwards;
+  opacity: 0;
+  transform: translateX(-130px);
+}
+/* 进入后退动画 */
+
+@keyframes figure3-list-translate-1 {
+  0% {
+    opacity: 1;
+  }
+  60% {
+    transform: translateX(20px);
+    opacity: 1;
+  }
+  80% {
+    transform: translateX(-10px);
+    opacity: 1;
+  }
+  90% {
+    transform: translateX(10px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes figure3-list-translate-2 {
+  0% {
+    opacity: 1;
+  }
+  60% {
+    transform: translateX(-20px);
+    opacity: 1;
+  }
+  80% {
+    transform: translateX(10px);
+    opacity: 1;
+  }
+  90% {
+    transform: translateX(-10px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+.current .icon-dialog1 {
+  animation: figure3-list-scale 0.8s ease forwards;
+  opacity: 0;
+  transform: scale(0);
+}
+.current .icon-dialog2 {
+  animation: figure3-list-scale 0.8s ease 0.5s forwards;
+  opacity: 0;
+  transform: scale(0);
+}
+@keyframes figure3-list-scale {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  60% {
+    transform: scale(0.95);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(0.95);
+    opacity: 1;
+  }
+  90% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.current .icon-bird {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: figure3-list-translate-3 1s ease 0.5s forwards;
+}
+@keyframes figure3-list-translate-3 {
+  0% {
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
